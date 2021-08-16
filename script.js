@@ -57,7 +57,7 @@ document.getElementById('withdraw-button').addEventListener('click', function ()
         updaateValence(withdrawAmount, false);
     }
     if(withdrawAmount > curentbalence){
-        alert('তোর কাছে ত টাকা এতো টাকা নেই শালার পোলা তুই উঠাইবি কেমনে ?');
+        alert('আপনার কাছে এতো টাকা জমা নেই অনুগ্রহ করে একাউন্ড চেক করে আবার উইথড্র করুন । ');
     }
 
 });
